@@ -33,6 +33,11 @@ function draw(){
  fill("black");
  stroke("black");
  rect(680,0,20,700);
+    
+ video=createCapture(VIDEO);
+ video.size(800, 400);
+ video.parent('game_console');
+
 
  fill("black");
  stroke("black");
